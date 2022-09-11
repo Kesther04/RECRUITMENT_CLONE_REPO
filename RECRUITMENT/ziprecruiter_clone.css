@@ -1,0 +1,509 @@
+*{box-sizing:border-box;font-family:arial;}
+body{margin:0px;}
+
+.dash-b{
+    border:1px solid black;
+    background-color: black;
+    border-radius: 10px;
+    width:50px;
+    margin:2px;
+    margin-left: 20px;
+}
+
+.first-div{
+    width:100%;
+    height:80px;
+    box-shadow:0px 0px 10px 0px grey;
+    padding-top:10px;
+    background-color:white;
+    background-attachment:scroll;
+    padding-left:50px;
+    float: left;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index:1;
+}
+
+.aaa{
+    color:black;
+    text-decoration: none;
+}
+
+.aaa:hover{
+    text-decoration: underline;
+}
+
+.buck{
+    float:left;
+    padding:20px;
+    padding-bottom:33px;
+    margin-left:25px;
+}
+
+.rack{
+    position:absolute;
+    visibility: hidden;
+    background-color:white;
+    width:230px;
+    height:300px;
+    padding:15px;
+    margin-top:-25px;
+    transition:.7s;
+	opacity:0;
+}
+
+.rack a{
+    transition:.7s;
+    text-decoration:none;
+    color:black;   
+}
+
+.rack  a:hover{
+    text-decoration: underline;
+}
+
+.buck:hover>.rack{
+    visibility: visible;
+    margin-top: 33px;
+    opacity:1;
+}
+
+.vid{
+    float:left;
+    object-fit: cover;
+    height:75vh;
+    width: 100%;
+}
+
+.b-d{
+    display:block;
+    position:absolute;
+    margin-left: 50px;
+    margin-top:50px;
+}
+
+.bbb{
+    padding:5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    border:1px solid grey;
+    font-size: 15px;
+    font-weight: bolder;
+    color:rgba(0,205,0,0.6);
+    background-color:white;
+}
+
+.bbb:hover{
+    background-color:rgb(245,245,245);
+    box-shadow:0px 0px 2px 0px black;
+}
+
+.a-d{
+   width:100%;
+   height:250px;
+   color:whitesmoke;
+   font-size: 50px;
+}
+
+.c-d{
+   color:gold;
+   font-size:20px;
+   width:50%;
+   font-weight: bolder;
+   background-color:  rgba(0,100,50);
+   border:2px solid rgb(0,100,50);
+   border-radius: 50px;
+   padding:20px;
+}
+
+.c-d:hover{
+    box-shadow:0px 0px 10px 0px black;
+    background-color:rgb(0,100,50);
+    border:2px solid rgb(0,100,50);
+    color:rgb(0,255,0);
+}
+
+#main-div{
+    background-color:rgba(0,0,0,0.5);
+    visibility: hidden;
+    width:100%;
+    position: absolute;top:0px;bottom:0px;left:0px;right:0px;
+    height:1750px;
+    padding-top:100px;
+    float:left;
+}
+
+.p-div td{
+    padding: 15px;
+    
+}
+
+
+.w-div table tr td{
+    padding: 15px;
+}
+
+
+.p-div input{
+    margin-right:80px;
+    padding:10px;
+    border-radius:5px 5px 5px 5px;
+}
+
+
+.p-a-s{
+    display:block;
+
+}
+
+#p-a-t{
+    display:none;
+}
+
+#aaa{
+    display: block;
+}
+
+#bbb{
+    display:none;
+}
+
+.p-div select{
+    margin-right:3px;
+    padding:10px;
+    border-radius:5px 5px 5px 5px;
+}
+
+.w-div{
+    margin-top:30px;
+    font-size:20px;
+    float: left;
+    width:50%;
+}
+
+.w-div select{
+    padding:10px;
+    border-radius:5px 5px 5px 5px;
+}
+
+.w-div input{
+    margin-right:50px;
+    padding:10px;
+    border-radius:5px 5px 5px 5px;
+}
+
+
+.p-div{
+    margin-top:30px;
+    font-size:20px;
+    float: left;
+    width:50%;
+}
+
+#ina{
+    display:block;
+}
+
+#ind{
+    display:none;
+}
+
+
+#ink{
+    display:block;
+}
+
+#ino{
+    display:none;
+}
+
+
+
+.sub-div select{
+    outline:none;
+}
+
+.sub-div input{
+    outline:none;
+}
+
+.sub-div input:focus{
+    box-shadow:0px 0px 10px 0px black;
+    outline:none;
+}
+.sub-div select:focus{
+    box-shadow:0px 0px 10px 0px black;
+}
+
+
+.but-div{
+    width:100%;
+    padding-left:560px;
+    margin-top:40px;
+    float:left;
+    
+}
+
+.but{
+    padding:15px;
+    border-radius:5px 5px 5px 5px;
+    width:30%;
+    color:gold;
+    font-size:20px;
+    font-weight: bolder;
+    background-color:  rgba(0,100,50);
+    border:2px solid rgb(0,100,50);
+}
+
+.but:hover{
+    box-shadow:0px 0px 10px 0px black;
+    color:rgb(0,255,0);
+}
+
+.sub-div{
+    background:linear-gradient(to bottom,rgba(0,100,50),rgba(0,50,50));
+    height:650px;
+    width:95%;
+    color:whitesmoke;
+    margin-left:50px;
+    margin-top:50px;
+    padding:10px;
+    padding-left:50px;
+    border-radius:25px;
+    border:10px solid rgba(0,0,100);
+}
+
+
+
+
+.zpp-div table tr:nth-child(even) {
+    background-color: rgba(0,0,100);
+}
+
+.zpp-div table tr:nth-child(odd) {
+    background-color: rgba(0,100,50);
+}
+
+.zpp-div table tr td {
+    color:whitesmoke;
+    padding:5px;
+    margin:5px;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-radius:5px;
+    font-size: 16px;
+    text-align:left;
+}
+
+.zpp-div table{
+    background: linear-gradient(to bottom,rgba(0,100,50),rgba(0,50,50));
+}
+
+#rad td{
+    background-color: black;
+    background: linear-gradient(to bottom,rgba(0,120,50),rgba(0,50,50));
+    color:gold;
+    font-weight: bolder;
+    padding:5px;
+    text-align: center;
+}
+
+.rud{
+    width:100%;
+}
+
+.lect{
+    width:30%;
+    float:left;
+    border:10px solid rgba(0,0,100);
+    margin:20px;
+    padding:15px;
+    background: linear-gradient(to bottom,rgba(0,100,50),rgba(0,50,50));
+    font-size:17px;
+    border-radius:50px;
+    color:whitesmoke;
+    text-align:left;
+    height:650px;
+    
+}
+
+.lect:hover{
+    box-shadow:0px 0px 14px 0px black;
+}
+
+.lect p{
+    background: linear-gradient(to bottom,rgba(0,100,50),rgba(0,50,50));
+    border-radius:20px;
+    padding:10px;
+    padding-left:30px;
+}
+
+#wap-div{
+    height:800px; 
+    width:300px;
+    position:fixed;top:0px;left:0px;bottom:0px;right:0px;
+    background:linear-gradient(to bottom,rgba(0,100,50),rgba(0,50,50));
+    display:block;   
+}
+
+.wap{
+    float:left;
+    height:120px;
+    width:250px;
+    border-radius:10px;
+    margin:5px;
+    text-align:center;
+    padding:10px;
+}
+
+.cad{
+    width:100%;
+    font-weight: bolder;
+    border-radius: 40px;
+    background:linear-gradient(to bottom,rgba(0,100,50),rgba(0,50,50));
+    border:5px solid rgb(0,0,100);
+    padding:20px;
+}
+
+.cad:hover{
+    box-shadow:0px 0px 10px 0px black;
+}
+
+#cad{
+    color:gold;
+    font-size:18px;
+    text-decoration: none;
+    width:100%;
+}
+
+#cad:hover{
+    color:rgb(0,255,0);
+}
+
+.reg-div{
+    margin-top:200px;
+    float:left;
+    display:block;
+    height:600px;
+    width:100%;
+    border-radius:10px;
+    padding:20px;
+    background:linear-gradient(to right,rgb(245,245,245)60%,rgba(240,240,240,0.8)40%);
+    box-shadow: 0px 0px 2px 0px black;
+}
+
+.reg-div:hover{
+    box-shadow: 0px 0px 5px 0px black;
+}
+
+.imga{
+    visibility: hidden;
+    position: absolute;
+    transition: .9s;
+    opacity:0;
+}
+
+.imgb{
+    visibility: hidden;
+    position: absolute;
+    transition: .9s;
+    opacity:0;
+}
+
+.imgc{
+    visibility: hidden;
+    position: absolute;
+    transition: .9s;
+    opacity:0;
+}
+
+.cur-in{
+    display:block;
+    width:70%;
+    float:right;
+    margin-right: 150px;
+}
+
+.sqr{
+    float:right;
+    width:60%;
+    margin:20px;
+    padding-left:10px;
+    transition: .3s;
+    transform: scaleX();
+
+}
+
+.cur-ina{
+    line-height:5px;
+    padding:20px;
+    
+}
+
+.cur-inb{
+    line-height:5px;
+    padding:20px;
+    
+}
+
+
+.cur-inc{
+    line-height:5px;
+    padding:20px;
+    
+}
+
+.reg-div #reg-div .cur-in .cur-ina:hover > .imga{
+    visibility:visible;
+    opacity:1;
+}
+
+
+.reg-div #reg-div .cur-in .cur-inb:hover > .imgb{
+    visibility:visible;
+    opacity:1;
+}
+
+
+.reg-div #reg-div .cur-in .cur-inc:hover > .imgc{
+    visibility:visible;
+    opacity:1;
+}
+
+
+.reg-div #reg-div .cur-in .cur-ina:hover > .sqr{
+    border-left:4px outset green;
+    padding-left:10px;
+    border-radius:4px 0px 0px 4px;
+    opacity:1;
+}
+
+
+.reg-div #reg-div .cur-in .cur-inb:hover > .sqr{
+    border-left:4px outset green;
+    padding-left:10px;
+    border-radius:4px 0px 0px 4px;
+    opacity:1;
+}
+
+
+.reg-div #reg-div .cur-in .cur-inc:hover > .sqr{
+    border-left:4px outset green;
+    padding-left:10px;
+    border-radius:4px 0px 0px 4px;
+    opacity:1;
+}
+
+.opax{
+    width:100%;
+    height:70px;
+    float:left;
+    margin-top:200px;
+    background:rgb(245,245,245);
+    box-shadow: 0px 0px 2px 0px black;
+    padding:10px;
+    
+}

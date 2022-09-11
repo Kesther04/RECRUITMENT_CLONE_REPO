@@ -1,0 +1,365 @@
+*{box-sizing:border-box;font-family:arial;}
+body{margin:0px;}
+
+.log-body{
+    background-color:rgb(230,230,230);
+}
+
+.first-div{
+    background: linear-gradient(to bottom,rgba(0,100,50),rgba(0,50,50));
+    border:10px solid rgba(0,0,100);
+    width:42%;
+    height:680px;
+    padding:20px;
+    margin:100px;
+    margin-left:500px;
+    border-radius:50px;
+}
+
+.first-div table tr td{
+    border:0px solid red;
+    font-size:20px;
+    padding-top:40px;
+    color:whitesmoke;
+
+}
+
+.first-div table tr td input{
+    padding:15px;
+    margin-left: 10px;
+    border-radius:20px;
+    outline:none;
+}
+
+.btn{
+    padding:15px;
+    border-radius:5px 5px 5px 5px;
+    color:gold;
+    font-weight: bolder;
+    background-color:  rgba(0,100,50);
+    border:2px solid rgb(0,100,50);
+    padding:20px;
+    width:25%;
+    font-size:20px;    
+}
+
+.btn:hover{
+    box-shadow:0px 0px 10px 0px black;
+    color:rgba(0,255,0);
+}
+
+#btn {
+    width:100%;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#p-pass{
+    visibility: visible;
+}
+
+#tock{
+    display: block;
+}
+
+#pock{
+    display:none;
+}
+
+.user{
+    color:gold;
+    text-align:center;
+    font-weight:bolder;
+    font-size:25px;
+}
+
+#u-form{
+    display: none;
+    position:fixed;top:0px;left:0px;right:0px;
+    background-color:rgba(0,0,0,0.5);    
+    width:100%;
+    height:100%;
+    
+    
+}
+.u-form{
+    color:gold;
+    background:linear-gradient(to bottom,rgba(0,100,50),rgba(0,50,50));
+    height:400px;
+    width:45%;
+    padding:5px;
+    margin-top:200px;
+    margin-left:450px;
+    border-radius:25px;
+    border:10px solid rgba(0,0,100);
+    text-align:center;
+    font-weight:bolder;
+    font-size:25px;
+    
+}
+
+.u-form textarea{
+    height:150px;
+    width:75%;
+    outline:none;
+    text-align:left;
+    padding:20px;
+    border-radius:10px;
+    font-size:20px;
+}
+
+.but{
+padding:15px;
+border-radius:5px 5px 5px 5px;
+width:30%;
+color:gold;
+font-size:20px;
+font-weight: bolder;
+background-color:  rgba(0,100,50);
+border:2px solid rgb(0,100,50);
+}
+
+
+.but:hover{
+    box-shadow:0px 0px 10px 0px black;
+    color:rgb(0,255,0);
+}
+
+.dap{
+    float:left;
+    height:120px;
+    width:250px;
+    border-radius:10px;
+    margin:5px;
+    text-align:center;
+    padding:10px;
+}
+
+.d-d{
+    color:gold;
+    font-size:20px;
+    width:30%;
+    font-weight: bolder;
+    background:linear-gradient(to bottom,rgba(0,100,50),rgba(0,50,50));
+    border:5px solid rgb(0,0,100);
+    border-radius: 50px;
+    padding:20px;
+    margin:20px;
+}
+
+.d-d:hover{
+    box-shadow:0px 0px 10px 0px black;
+    color:rgb(0,255,0);
+}
+
+.c-d{
+    color:gold;
+    font-size:20px;
+    width:100%;
+    font-weight: bolder;
+    background:linear-gradient(to bottom,rgba(0,100,50),rgba(0,50,50));
+    border:5px solid rgb(0,0,100);
+    border-radius: 50px;
+    padding:20px;
+
+}
+
+.cd{
+    color:gold;
+    text-decoration: none;
+}
+
+.cd:hover{
+    color:rgb(0,255,0);
+}
+
+.drec{
+    width:100%;
+    
+    text-align: right;
+}
+.c-d:hover{
+     box-shadow:0px 0px 10px 0px black;
+     color:rgb(0,255,0);
+}
+
+.msg-rr{
+    width:80%;
+    float:left;
+    border:10px solid rgba(0,0,100);
+    margin:20px;
+    padding:15px;
+    background: linear-gradient(to bottom,rgba(0,100,50),rgba(0,50,50));
+    font-size:17px;
+    border-radius:50px;
+    color:whitesmoke;
+    text-align:left;
+    height:650px;
+}
+
+.msg-rr p{
+    font-weight: bolder;
+}
+
+.msg-rr div{
+    float:left;
+    width:100%;
+    margin-top:50px;
+    display:block;
+}
+
+
+.ms-id{
+    width:50%;
+    font-weight: bolder;
+    background-color:  rgba(0,100,50);
+    border:2px solid rgb(0,100,50);
+    border-radius: 50px;
+    padding:20px;
+}
+
+#ms-id{
+    color:gold;
+    text-decoration:none;
+    font-size:20px;
+}
+
+#ms-id:hover{
+    color:rgb(0,255,0);
+
+}
+
+.esss{
+    color:gold;
+    font-size:20px;
+    width:50%;
+    font-weight: bolder;
+    background-color:  rgba(0,100,50);
+    border:2px solid rgb(0,100,50);
+    border-radius: 50px;
+    padding:20px;
+}
+
+.esss:hover{
+    color:rgb(0,255,0);
+
+}
+
+#msg{
+    border:0px solid rgba(0,0,100);
+    float:left;
+    text-transform: uppercase;
+    width:100%;
+    padding:20px;
+    border-radius:10px;
+}
+
+
+.smg-rr{
+    width:80%;
+    float:left;
+    border:10px solid rgba(0,0,100);
+    margin:20px;
+    padding:15px;
+    background: linear-gradient(to bottom,rgba(0,100,50),rgba(0,50,50));
+    font-size:17px;
+    border-radius:50px;
+    color:whitesmoke;
+    text-align:left;
+    height:650px;
+}
+
+.ccc{
+    
+    width:18%;
+    height:800px;
+    background: linear-gradient(to bottom,rgba(0,100,50),rgba(0,50,50));
+    float:left;
+    position:fixed;top:0px;left:0px;right:0px;
+}
+
+.sccc{
+    width:75%;
+    height:800px;
+    float:left;
+    margin-left:320px;
+}
+
+.sccd{
+    margin-left:320px;
+}
+
+#selo{
+    padding:20px;
+    margin-top:10px;
+    width:60%;
+    border-radius: 20px;
+    background: linear-gradient(to bottom,rgba(0,100,50,0.6),rgba(0,65,50,0.8));
+}
+
+#selo:hover{
+    background: linear-gradient(to bottom,rgba(0,100,50,0.6),rgba(0,65,50,0.8));
+}
+
+
+#leso{
+    padding:20px;
+    margin-top:10px;
+    width:60%;
+    border-radius: 20px;
+    background: linear-gradient(to bottom,rgba(0,100,50,0.3),rgba(0,50,50,0.7));
+}
+
+#leso:hover{
+    background: linear-gradient(to bottom,rgba(0,100,50,0.3),rgba(0,50,50,0.7));
+}
+
+.imag{
+    width:100%;
+    padding:20px;
+    border:0px solid blue;
+    padding-left:400px;
+}
+
+.imgee{
+    border-radius:20px;
+    border:3px solid green;
+    width:40%;
+    height:50vh;
+    margin:20px;
+}
+
+#pro-form{
+    display: none;
+    position:fixed;top:0px;left:0px;right:0px;
+    background-color:rgba(0,0,0,0.5);    
+    width:100%;
+    height:100%;
+}
+
+.pro-form{
+    color:gold;
+    background:linear-gradient(to bottom,rgba(0,100,50),rgba(0,50,50));
+    height:200px;
+    width:45%;
+    padding:5px;
+    margin-top:200px;
+    margin-left:450px;
+    border-radius:25px;
+    border:10px solid rgba(0,0,100);
+    text-align:center;
+    font-weight:bolder;
+    font-size:25px;
+}
+
+
+.pro-form button{
+    padding:15px;
+    border-radius:5px 5px 5px 5px;  
+    width:30%;
+    color:gold;
+    font-size:20px;
+    font-weight: bolder;
+    background-color:  rgba(0,100,50);
+    border:2px solid rgb(0,100,50);
+}
