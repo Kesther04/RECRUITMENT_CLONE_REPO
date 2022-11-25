@@ -16,13 +16,12 @@ body{margin:0px;}
     box-shadow:0px 0px 10px 0px grey;
     padding-top:10px;
     background-color:white;
-    background-attachment:scroll;
+   
     padding-left:50px;
     float: left;
     position: fixed;
     left: 0;
     top: 0;
-    width: 100%;
     z-index:1;
 }
 
@@ -33,6 +32,14 @@ body{margin:0px;}
 
 .aaa:hover{
     text-decoration: underline;
+}
+
+.tri{
+    display: none;
+}
+
+.trex{
+    display: none;
 }
 
 .buck{
@@ -399,6 +406,12 @@ body{margin:0px;}
     box-shadow: 0px 0px 5px 0px black;
 }
 
+.reg-div h1{
+    padding-left:100px;
+    color:black;
+    font-weight:bolder;
+}
+
 .imga{
     visibility: hidden;
     position: absolute;
@@ -433,7 +446,7 @@ body{margin:0px;}
     margin:20px;
     padding-left:10px;
     transition: .3s;
-    transform: scaleX();
+   
 
 }
 

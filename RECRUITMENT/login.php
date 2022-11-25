@@ -12,6 +12,7 @@ session_destroy();
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" href = "zip.css" media="all">
+    <link rel = "stylesheet" href = "rep_zip.css" media="all">
     <title>LOGIN</title>
 </head>
 

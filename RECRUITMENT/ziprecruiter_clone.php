@@ -52,6 +52,7 @@ if($insert){
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="ziprecruiter_clone.css" media="all">
+<link rel="stylesheet" href="rep_ziprecruiter.css" media = "all">
 </head>
 <body>
 
@@ -61,6 +62,12 @@ if($insert){
 
         <div style="float:left;padding:10px;"><img src="med/reed.svg" width="160"></div>
 
+    <div class="tri" onclick="dipp()">&#9776;</div>
+
+    <div id="holder">
+    
+    <div class="trex" onclick="dax()">&times;</div>
+    
     <div class="buck">
             <a href="#" class="aaa">Job Seekers</a>
 
@@ -106,7 +113,7 @@ if($insert){
     
     </div>
 
-    <div style="float:right;">
+    <div style="float:right;" id="afnav">
 
         <div style="float:left;margin-right:40px;padding:18px;">
             <button class="bbb">Post a Job</button>
@@ -116,6 +123,8 @@ if($insert){
         <div style="float:left;margin-right:80px;padding:20px;">
             <a href ="login" target="-blank" class="aaa">sign in</a> 
         </div>
+
+    </div>
 
     </div>
 
@@ -319,7 +328,7 @@ if($insert){
 
 <div class="reg-div">
 
-    <div style="padding-left:100px;color:black;font-weight:bolder;">
+    <div>
                     <h1>With a personal recruiter, you'll get matched to roles that are right for you.</h1>
     </div>
 

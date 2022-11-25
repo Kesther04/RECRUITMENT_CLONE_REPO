@@ -1,0 +1,492 @@
+@media(max-width:850px){
+    body{
+        margin:0px;
+        width:100%;
+        border:4px solid red;
+    }
+
+    .first-div{
+        width:100%;
+        height:80px;
+        box-shadow:0px 0px 10px 0px grey;
+        padding-top:10px;
+        background-color:white;   
+        padding-left:20px;
+        float: left;
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index:1;
+    }
+
+    .tri{
+        display: block;
+        float:left;
+        padding:20px;
+        margin-left: 500px;
+        color:rgba(0,205,0,0.6);
+    }
+
+    .trex{
+        display: block;
+        font-size: 25px;
+        margin-left: 500px;
+        color:rgba(0,205,0,0.6);
+
+    }
+
+    #holder{
+        display: none;
+        background-color: white;
+        width:80%;
+        height:800px;
+        margin-left: 20%;
+        border: 0px solid green;
+        position: absolute;top:0px;
+    }
+
+    .buck{
+        float:left;
+        padding:20px;
+        padding-bottom:33px;
+        margin-left:25px;
+        border:0px solid red;
+        width:100%;
+    }
+
+    #afnav div{
+        border:0px solid green;
+        margin-left: -100px;
+        padding-right: 500px;
+        width:100%;
+    }
+    .vid{
+        float:left;
+        object-fit: cover;
+        height:75vh;
+        width: 100%;
+        border:0px solid green;
+    }
+    
+
+    .b-d{
+        display:block;
+        position:absolute;
+        margin-left: 50px;
+        margin-top:50px;
+    }
+
+    .a-d{
+        width:100%;
+        height:250px;
+        color:whitesmoke;
+        font-size: 30px;
+    }
+
+    .c-d{
+        color:gold;
+        font-size:15px;
+        width:70%;
+        font-weight: bolder;
+        background-color:  rgba(0,100,50);
+        border:2px solid rgb(0,100,50);
+        border-radius: 50px;
+        padding:20px;
+    }
+
+    #main-div{
+        background-color:rgba(0,0,0,0.5);
+        visibility: hidden;
+        width:100%;
+        position: absolute;top:0px;bottom:0px;left:0px;right:0px;
+        height:2250px;
+        padding-top:100px;
+        float:left;
+    }
+
+    .sub-div{
+        background:linear-gradient(to bottom,rgba(0,100,50),rgba(0,50,50));
+        height:1850px;
+        width:100%;
+        color:whitesmoke;
+        margin-left:0px;
+        margin-top:50px;
+        padding:10px;
+        padding-left:20px;
+        border-radius:25px;
+        border:10px solid rgba(0,0,100);
+    }
+
+    .p-div td{
+        width:85%;
+        border:0px solid red;
+        float: left;
+        padding: 15px;
+    }
+
+    .p-div{
+        margin-top:30px;
+        font-size:20px;
+        float: left;
+        width:80%;
+    }
+
+    .w-div{
+        margin-top:30px;
+        font-size:20px;
+        float: left;
+        width:100%;
+    }
+
+    .w-div td{
+        width:100%;
+        border:0px solid red;
+        float: left;
+    }
+
+    .but-div{
+        width:100%;
+        text-align: center;
+        padding-left: 0px;
+        margin-top:40px;
+        float:left;
+        border: 0px solid green;
+        
+    }
+    
+    .but{
+        padding:15px;
+        border-radius:5px 5px 5px 5px;
+        width:100%;
+        color:gold;
+        font-size:20px;
+        font-weight: bolder;
+        background-color:  rgba(0,100,50);
+        border:2px solid rgb(0,100,50);
+    }
+    
+    .reg-div{
+        margin-top:200px;
+        float:left;
+        display:block;
+        height:750px;
+        width:100%;
+        border-radius:10px;
+        padding:20px;
+        background:linear-gradient(to right,rgb(245,245,245)60%,rgba(240,240,240,0.8)40%);
+        box-shadow: 0px 0px 2px 0px black;
+    }
+
+    .reg-div h1{
+        font-size: 20px;
+        float:left;
+        border:0px solid green;
+        padding-left: 0px;
+    }
+
+    #reg-div{
+        float:left;
+        width:100%;
+        border:0px solid red;
+    }
+
+
+    .cur-in{
+        display:block;
+        width:100%;
+        border:0px solid green;
+        float:right;
+        margin-right: 0px;
+    }
+
+    .sqr{
+        float:right;
+        width:55%;
+        margin:20px;
+        padding-left:10px;
+        transition: .3s;
+        border:0px solid green;
+    }
+
+    .sqr p{
+        line-height: 15px;
+    }
+
+    .imga{
+        visibility: hidden;
+        position: absolute;
+        transition: .9s;
+        opacity:0;
+        width:100%;
+    }
+    
+    .imgb{
+        visibility: hidden;
+        position: absolute;
+        transition: .9s;
+        opacity:0;
+        width:100%;
+    }
+    
+    .imgc{
+        visibility: hidden;
+        position: absolute;
+        transition: .9s;
+        opacity:0;
+        width:100%;
+    }
+
+    .opax{
+        width:100%;
+        height:120px;
+        float:left;
+        margin-top:200px;
+        background:rgb(245,245,245);
+        box-shadow: 0px 0px 2px 0px black;
+        padding:10px;
+        display: block;
+    }
+
+    .opax span{
+        padding:30px;
+    }
+}
+
+@media(max-width:375px){
+    body{
+        margin:0px;
+        width:100%;
+        border:4px solid red;
+    }
+
+    .first-div{
+        width:100%;
+        height:80px;
+        box-shadow:0px 0px 10px 0px grey;
+        padding-top:10px;
+        background-color:white;   
+        padding-left:20px;
+        float: left;
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index:1;
+    }
+
+    .tri{
+        display: block;
+        float:left;
+        padding:20px;
+        margin-left: 100px;
+        color:rgba(0,205,0,0.6);
+    }
+
+    .trex{
+        display: block;
+        font-size: 25px;
+        margin-left: 250px;
+        color:rgba(0,205,0,0.6);
+
+    }
+
+    #holder{
+        display: none;
+        background-color: white;
+        width:80%;
+        height:800px;
+        margin-left: 20%;
+        border: 0px solid green;
+        position: absolute;top:0px;
+    }
+
+    .vid{
+        float:left;
+        object-fit: cover;
+        height:75vh;
+        width: 100%;
+        border:0px solid green;
+    }
+    
+
+    .b-d{
+        display:block;
+        position:absolute;
+        margin-left: 50px;
+        margin-top:50px;
+    }
+
+    .a-d{
+        width:100%;
+        height:250px;
+        color:whitesmoke;
+        font-size: 30px;
+    }
+
+    .c-d{
+        color:gold;
+        font-size:15px;
+        width:70%;
+        font-weight: bolder;
+        background-color:  rgba(0,100,50);
+        border:2px solid rgb(0,100,50);
+        border-radius: 50px;
+        padding:20px;
+    }
+
+    #main-div{
+        background-color:rgba(0,0,0,0.5);
+        visibility: hidden;
+        width:100%;
+        position: absolute;top:0px;bottom:0px;left:0px;right:0px;
+        height:2250px;
+        padding-top:100px;
+        float:left;
+    }
+
+    .sub-div{
+        background:linear-gradient(to bottom,rgba(0,100,50),rgba(0,50,50));
+        height:1850px;
+        width:100%;
+        color:whitesmoke;
+        margin-left:0px;
+        margin-top:50px;
+        padding:10px;
+        padding-left:20px;
+        border-radius:25px;
+        border:10px solid rgba(0,0,100);
+    }
+
+    .p-div td{
+        width:85%;
+        border:0px solid red;
+        float: left;
+        padding: 15px;
+    }
+
+    .p-div{
+        margin-top:30px;
+        font-size:20px;
+        float: left;
+        width:80%;
+    }
+
+    .w-div{
+        margin-top:30px;
+        font-size:20px;
+        float: left;
+        width:100%;
+    }
+
+    .w-div td{
+        width:100%;
+        border:0px solid red;
+        float: left;
+    }
+
+    .but-div{
+        width:100%;
+        text-align: center;
+        padding-left: 0px;
+        margin-top:40px;
+        float:left;
+        border: 0px solid green;
+        
+    }
+    
+    .but{
+        padding:15px;
+        border-radius:5px 5px 5px 5px;
+        width:100%;
+        color:gold;
+        font-size:20px;
+        font-weight: bolder;
+        background-color:  rgba(0,100,50);
+        border:2px solid rgb(0,100,50);
+    }
+    
+    .reg-div{
+        margin-top:200px;
+        float:left;
+        display:block;
+        height:750px;
+        width:100%;
+        border-radius:10px;
+        padding:20px;
+        background:linear-gradient(to right,rgb(245,245,245)60%,rgba(240,240,240,0.8)40%);
+        box-shadow: 0px 0px 2px 0px black;
+    }
+
+    .reg-div h1{
+        font-size: 20px;
+        float:left;
+        border:0px solid green;
+        padding-left: 0px;
+    }
+
+    #reg-div{
+        float:left;
+        width:100%;
+        border:0px solid red;
+    }
+
+
+    .cur-in{
+        display:block;
+        width:100%;
+        border:0px solid green;
+        float:right;
+        margin-right: 0px;
+    }
+
+    .sqr{
+        float:right;
+        width:100%;
+        margin:20px;
+        padding-left:10px;
+        transition: .3s;
+        border:0px solid green;
+    }
+
+    .sqr p{
+        line-height: 15px;
+    }
+
+    .imga{
+        visibility: hidden;
+        position: absolute;
+        transition: .9s;
+        opacity:0;
+        width:100%;
+    }
+    
+    .imgb{
+        visibility: hidden;
+        position: absolute;
+        transition: .9s;
+        opacity:0;
+        width:100%;
+    }
+    
+    .imgc{
+        visibility: hidden;
+        position: absolute;
+        transition: .9s;
+        opacity:0;
+        width:100%;
+    }
+
+    .opax{
+        width:100%;
+        height:120px;
+        float:left;
+        margin-top:200px;
+        background:rgb(245,245,245);
+        box-shadow: 0px 0px 2px 0px black;
+        padding:10px;
+        display: block;
+    }
+
+    .opax span{
+        padding:30px;
+    }
+}

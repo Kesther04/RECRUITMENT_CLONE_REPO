@@ -66,3 +66,12 @@ function lob(){
 function record(){
     document.getElementById('p-a-t').style.display="block";
 }
+
+
+function dipp(){
+    document.getElementById('holder').style.display="block";
+}
+
+function dax() {
+    document.getElementById('holder').style.display="none";
+}
